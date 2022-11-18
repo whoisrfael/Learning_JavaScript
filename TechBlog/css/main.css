@@ -42,14 +42,39 @@ body{
 
 #area-lateral{
     width: 240px;
+    margin: 0 auto;
     float: right;
-    margin-top: 10px;
 }
 
 .post{
     padding: 20px;
     margin-bottom: 20px;
     background: #fff;
+    border-radius: 5px;
+}
+
+.conteudo-lateral{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.post-lateral{
+    font-size: 0.8;
+    padding: 5px;
+    margin: 5px 0px;
+
+}
+
+.avatar{
+    margin: 10px 0px;
+    border: 1px solid #5da9ef;
+    border-radius: 150px;
+}
+
+.avatar:hover {
+    background: #5da9ef;
 }
 
 
@@ -59,6 +84,7 @@ body{
     padding: 15px;
     background: #5da9ef;
     text-align: center;
+    color: #fff;
 }
 
 
@@ -68,16 +94,24 @@ body{
 
 a {
     text-decoration: none;
-    padding: 8px 12px;
 }
 
 a:link, a:visited{
-    color: #e6e6e6;
+    color: #5da9ef;
 }
 
 a:hover{
-    color:darkorange;
+    text-decoration: underline;
 }
+
+ #area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #e6e6e6;
+    padding: 8px 12px;
+}
+
+
+
+
 
 /*
 **** Formatação Geral
@@ -92,17 +126,34 @@ h2 {
     color: #5da9ef;
 }
 
+h3{
+    color: #fff;
+    background: #5da9ef ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h3:hover {
+    color: black;
+}
+
 .branco{
     color: #fff;
 }
 
 .data{
     font-size: 0.8em;
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 10px;
     display: block;
 }
+
+hr{
+    margin: 10px 0px;
+}
+
+
 
 
 
