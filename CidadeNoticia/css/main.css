@@ -136,6 +136,37 @@ h2{
 }
 
 
+/* #### MENU LATERAL #### */
+
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png)no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-style: 0.9em;
+    background: #fff;
+    width: 150px;
+}
+
+
 /* RODAPÉ */
 #container-rodape{
     background: #294c71;
